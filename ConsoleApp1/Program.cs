@@ -96,10 +96,10 @@ namespace ConsoleApp1
 #if DEBUG
                             Debug.WriteLine(sqlStatement);
 #else
-                               intRtn              = command.ExecuteNonQuery();
-                               objRtn           = command.ExecuteScalar();
+                            intRtn = command.ExecuteNonQuery();
+                            objRtn = command.ExecuteScalar();
                             dataReader = command.ExecuteReader();
-                               xmlReader     = command.ExecuteXmlReader();
+                            xmlReader = command.ExecuteXmlReader();
 #endif
                         }
                         Debug.WriteLine(intRtn);
@@ -123,6 +123,12 @@ namespace ConsoleApp1
             return connectionString;
         }
 
+        /// <summary>
+        /// Execute TSQL Without using SMO?
+        /// https://stackoverflow.com/questions/8073170/execute-tsql-without-using-smo
+        /// </summary>
+        /// <param name="sqlStatementBatch"></param>
+        /// <returns></returns>
         public static string[] ParseSqlStatementBatch(string sqlStatementBatch)
         {
             // Split the sql into seperate batches by dividing on the GO statement

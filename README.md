@@ -14,7 +14,13 @@
 + BareTail (View text/log file)
 + ILSpy (ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip)
 
-## ILSpy 
+## SQL Server Management Objects (SMO) Programming Guide
++ Install-Package Microsoft.SqlServer.SqlManagementObjects
++ [SQL Server Management Objects (SMO) Programming Guide](https://learn.microsoft.com/en-us/sql/relational-databases/server-management-objects-smo/sql-server-management-objects-smo-programming-guide)
++ C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll
++ C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Smo.dll
+
+## ILSpy
 + https://github.com/icsharpcode/ILSpy
 + https://github.com/icsharpcode/ILSpy/releases
 + ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip

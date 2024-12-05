@@ -11,7 +11,7 @@
 + Logging (Write to a text file)
 + Run your T-SQL through sqlcmd.exe
 + Debugging (DEBUG mode)
-+ [SQLCMD.exe](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility)
++ [SQLCMD.exe Utility](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility)
 + Poor Man's T-SQL Formatter
 + BareTail (View text/log file)
 + ILSpy (ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip)

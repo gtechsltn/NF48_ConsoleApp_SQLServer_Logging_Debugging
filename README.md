@@ -20,6 +20,24 @@
 + [Reference Microsoft.SqlServer.Smo.dll](https://stackoverflow.com/questions/6453415/reference-microsoft-sqlserver-smo-dll)
 + C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll
 + C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Smo.dll
++ C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies (for the 64bit version)
++ C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\
++ Microsoft.SqlServer.ConnectionInfo.dll
++ Microsoft.SqlServer.Smo.dll
++ Microsoft.SqlServer.Management.Sdk.Sfc.dll
++ Microsoft.SqlServer.SqlEnum.dll
++ For SQL Server 2016, this location is C:\Program Files (x86)\Microsoft SQL Server\130\SDK\Assemblies (for the 64bit version)
+```
+using Microsoft.SqlServer.Management.Common;
+using Microsoft.SqlServer.Management.Smo;
+
+//NOTE: The content of script should not be included the "GO" statement
+SqlConnection conn = new SqlConnection(sqlConnectionString);
+SqlCommand cmd = new SqlCommand(script, conn);
+cmd.ExecuteNonQuery();
+```
++ https://stackoverflow.com/questions/1449646/how-can-i-execute-a-sql-from-c
++ https://www.codeproject.com/Tips/639743/Versioning-your-Database-on-a-Budget-with-Csharp-a
 
 ## ILSpy
 + https://github.com/icsharpcode/ILSpy

@@ -9,7 +9,9 @@
 + Console App (C#)
 + Microsoft.SqlServer.Management.Smo
 + Logging (Write to a text file)
++ Run your T-SQL through sqlcmd.exe
 + Debugging (DEBUG mode)
++ [SQLCMD.exe](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility)
 + Poor Man's T-SQL Formatter
 + BareTail (View text/log file)
 + ILSpy (ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip)
@@ -39,6 +41,7 @@ cmd.ExecuteNonQuery();
 + [Execute TSQL Without using SMO?](https://stackoverflow.com/questions/8073170/execute-tsql-without-using-smo)
 + [How can I execute a .sql from C#?](https://stackoverflow.com/questions/1449646/how-can-i-execute-a-sql-from-c)
 + [Versioning your Database on a Budget with C# and SMO](https://www.codeproject.com/Tips/639743/Versioning-your-Database-on-a-Budget-with-Csharp-a)
++ [Run your T-SQL through sqlcmd.exe](https://bitmugger.blogspot.com/2008_04_01_archive.html)
 
 ## ILSpy
 + https://github.com/icsharpcode/ILSpy

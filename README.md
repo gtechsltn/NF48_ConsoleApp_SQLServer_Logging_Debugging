@@ -36,8 +36,9 @@ SqlConnection conn = new SqlConnection(sqlConnectionString);
 SqlCommand cmd = new SqlCommand(script, conn);
 cmd.ExecuteNonQuery();
 ```
-+ https://stackoverflow.com/questions/1449646/how-can-i-execute-a-sql-from-c
-+ https://www.codeproject.com/Tips/639743/Versioning-your-Database-on-a-Budget-with-Csharp-a
++ [Execute TSQL Without using SMO?](https://stackoverflow.com/questions/8073170/execute-tsql-without-using-smo)
++ [How can I execute a .sql from C#?](https://stackoverflow.com/questions/1449646/how-can-i-execute-a-sql-from-c)
++ [Versioning your Database on a Budget with C# and SMO](https://www.codeproject.com/Tips/639743/Versioning-your-Database-on-a-Budget-with-Csharp-a)
 
 ## ILSpy
 + https://github.com/icsharpcode/ILSpy

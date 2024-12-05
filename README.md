@@ -23,8 +23,11 @@
 + https://github.com/TaoK/PoorMansTSqlFormatter
 + http://architectshack.com/poormanstsqlformatter.ashx
 
-## SQLServerScripter
-+ [Easily generate scripts from a SQL Server database on the command line in Linux](https://github.com/mkurz/SQLServerScripter)
+## Scriptio
++ [SQL Script Writer](https://github.com/fredatgithub/Scriptio)
 
 ## Schemazen
 + [Script and create SQL Server objects quickly](https://github.com/sethreno/schemazen)
+
+## SQLServerScripter
++ [Easily generate scripts from a SQL Server database on the command line in Linux](https://github.com/mkurz/SQLServerScripter)

@@ -17,6 +17,7 @@
 ## SQL Server Management Objects (SMO) Programming Guide
 + Install-Package Microsoft.SqlServer.SqlManagementObjects
 + [SQL Server Management Objects (SMO) Programming Guide](https://learn.microsoft.com/en-us/sql/relational-databases/server-management-objects-smo/sql-server-management-objects-smo-programming-guide)
++ [Reference Microsoft.SqlServer.Smo.dll](https://stackoverflow.com/questions/6453415/reference-microsoft-sqlserver-smo-dll)
 + C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll
 + C:\Program Files\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.SqlServer.Smo.dll
 

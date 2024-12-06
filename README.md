@@ -15,6 +15,28 @@
 + Poor Man's T-SQL Formatter
 + BareTail (View text/log file)
 + ILSpy (ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip)
++ [Manually writing simple CRUD stored procedures](https://dev.to/peledzohar/t-sql-crud-procedures-auto-generator-1cl1)
++ [Retrieve SQL Server identity column values](https://learn.microsoft.com/en-us/sql/connect/ado-net/retrieve-identity-or-autonumber-values)
+```
+CREATE PROCEDURE dbo.InsertCategory
+  @CategoryName nvarchar(15),
+  @Identity int OUT
+AS
+INSERT INTO Categories (CategoryName) VALUES(@CategoryName)
+SET @Identity = SCOPE_IDENTITY()
+```
++ [Generic Repository](https://www.ben-morris.com/why-the-generic-repository-is-just-a-lazy-anti-pattern/)
+```
+public interface IRepository<T>
+{
+    IEnumerable<T> GetAll();
+    IEnumerable<T> Find(Expression<Func<T, bool>> query);
+    T GetByID(int id);
+    void Add(T item);
+    void Update(T item);
+    void Delete(T item);
+}
+```
 
 ## SQL Server Management Objects (SMO) Programming Guide
 + Install-Package Microsoft.SqlServer.SqlManagementObjects

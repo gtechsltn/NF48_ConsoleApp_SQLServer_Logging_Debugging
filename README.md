@@ -16,6 +16,8 @@
 + BareTail (View text/log file)
 + ILSpy (ILSpy_selfcontained_9.0.0.7833-preview3-x64.zip)
 + [Manually writing simple CRUD stored procedures](https://dev.to/peledzohar/t-sql-crud-procedures-auto-generator-1cl1)
++ [T-SQL CRUD procedures auto-generator](https://zoharpeled.wordpress.com/2020/02/06/t-sql-crud-procedures-auto-generator/)
++ [Using Stored Procedures with Return Values](https://www.sqlshack.com/using-stored-procedures-with-return-values/)
 + [Retrieve SQL Server identity column values](https://learn.microsoft.com/en-us/sql/connect/ado-net/retrieve-identity-or-autonumber-values)
 ```
 CREATE PROCEDURE dbo.InsertCategory

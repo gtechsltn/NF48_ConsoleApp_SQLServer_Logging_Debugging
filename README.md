@@ -84,3 +84,11 @@ cmd.ExecuteNonQuery();
 
 ## SQLServerScripter
 + [Easily generate scripts from a SQL Server database on the command line in Linux](https://github.com/mkurz/SQLServerScripter)
+
+# References
+
+## Auto Generate Code (CRUD) for 3 Layered architecture (Entity, Data Access & Business Layer) with Stored Procedures based on table design
+
+https://www.codeproject.com/Articles/745217/Auto-Generate-Code-CRUD-for-3-Layered-architecture
+
+https://github.com/gtechsltn/GenCodeCrudFromTable
